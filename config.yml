@@ -1,0 +1,36 @@
+# Proxy listener address and port.
+network:
+  bind-address: "0.0.0.0"
+  port: 25565
+
+# Values shown in the Minecraft server list.
+status:
+  max-players: 10000
+  show-online-count: true
+
+# Backend servers used after the proxy checks.
+backend:
+  servers:
+    - name: "main" # Unique backend name.
+      host: "127.0.0.1" # Backend hostname or IP address.
+      port: 25566 # Backend port.
+  # Servers are tried in this order; remaining servers follow afterward.
+  try-order:
+    - "main"
+
+# Forwarding settings for compatible backend servers.
+forwarding:
+  mode: "modern" # Use "none" to disable forwarding.
+  secret-file: "forwarding.secret" # Created beside this file when missing.
+
+# General connection settings.
+options:
+  online-mode: false # Online authentication is currently unsupported.
+  compression-threshold: 0
+  connection-timeout-ms: 10000
+  read-timeout-seconds: 30
+
+# Maximum concurrent connections.
+limits:
+  max-connections-per-ip: 0 # 0 disables the per-IP limit.
+  max-total-connections: 1000

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml">
+      <package file="$PROJECT_DIR$">
+        <enabledFeature name="default" />
+      </package>
+    </cargoProject>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fc2ae9b-ba0a-4276-bc7f-3b5ba6ce2fcf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/captcha/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/captcha/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/captcha/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/captcha/bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/captcha/font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/messages/messages_en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/messages/messages_ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nebo/motd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NeboNew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forwarding.secret" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/bootstrap.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/console.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codec/compression.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codec/frame.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codec/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/backend.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/limits.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/messages.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/paths.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/proxy.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/secret.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forwarding/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/forwarding/velocity.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/captcha/draw.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/captcha/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/captcha/palette.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/captcha/png.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/nbt.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/abilities.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/chat.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/entity.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/experience.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/map.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/movement.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/player_info.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/packets/position.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/protocol.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/session.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/texts.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/biome.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/chunks.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/damage.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/helpers.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/join.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/registry.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/limbo/world/variant.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/monitor/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/monitor/windows.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motd/config.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motd/formatter/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motd/formatter/tags.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motd/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nbt/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nbt/tag.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nbt/writer.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/backend/compression_switch.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/backend/login_flow.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/backend/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/backend/plugin_request.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/configuration.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/handshake.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/limbo_phase.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/login.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/status.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/client/util.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/relay/backend_side.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/relay/client_side.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/relay/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/server.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/session/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/session/state.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/constants.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/data.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/factory.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_16_5.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_17.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_18.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_19.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_19_3.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_20.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_20_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/ids/v1_21_11.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/io.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/packet.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/registry.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_16_5.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_17.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_18.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_19.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_19_3.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_20.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_20_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protocol/versions/v1_21_11.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot/asn_blocker.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot/config.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot/country_blocker.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot/geo.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot/ip_blocker.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/anti_bot/ip_list.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/chat.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/favicon.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/mod.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ES6dwH1k" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3M8qm7V1x7kdpZQmWVEKjh7w8Ti" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run Nebo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/OneDrive/РАБОТА/NeboNew&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/Hp/OneDrive/РАБОТА/NeboNew/src/protocol/versions/mod.rs&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Cargo.Run Nebo">
+    <configuration name="Run Nebo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package Nebo --bin Nebo" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package NeboNew --bin NeboNew" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run Nebo" />
+        <item itemvalue="Cargo.Run Nebo" />
+        <item itemvalue="Cargo.Run Nebo" />
+        <item itemvalue="Cargo.Run Nebo" />
+        <item itemvalue="Cargo.Run Nebo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fc2ae9b-ba0a-4276-bc7f-3b5ba6ce2fcf" name="Changes" comment="" />
+      <created>1794742700701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794742700701</updated>
+      <workItem from="1794742701454" duration="2909000" />
+      <workItem from="1794745652309" duration="12239000" />
+      <workItem from="1794949849843" duration="1147000" />
+      <workItem from="1794954751199" duration="799000" />
+      <workItem from="1794956692528" duration="47000" />
+      <workItem from="1794956773482" duration="1516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+# Server-list MOTD. Supports legacy (&a, &l), RGB hex (&x&...), and MiniMessage tags; use {NL} for a second line.
+# Color tags include the full vanilla palette plus hexadecimal colors, gradients, rainbow, and text decorations.
+motd: '&x&0&0&C&B&F&F&l▶ &x&6&E&D&4&F&9&lF&x&6&2&C&9&F&9&ll&x&5&5&B&D&F&A&la&x&4&9&B&2&F&A&lg&x&3&C&A&6&F&B&lW&x&3&0&9&B&F&B&lo&x&2&3&8&F&F&B&lr&x&1&7&8&4&F&C&ll&x&0&A&7&8&F&C&ld &8 •  &x&A&8&A&8&A&81&x&A&8&A&8&A&8.&x&A&8&A&8&A&81&x&A&8&A&8&A&86&x&A&8&A&8&A&8.&x&A&8&A&8&A&85 &x&A&8&A&8&A&8- &x&9&C&A&2&A&A1&x&8&F&9&C&A&C.&x&8&3&9&6&A&E2&x&7&7&9&0&B&11&x&6&B&8&A&B&3.&x&5&E&8&4&B&51&x&5&2&7&E&B&71 &8 • {NL}    &8.&fСледи за новостями &lЛайта: &x&F&8&7&3&0&8&nt&x&F&9&6&9&0&7&n.&x&F&A&5&F&0&5&nm&x&F&A&5&6&0&4&ne&x&F&B&4&C&0&2&n/&x&F&C&4&2&0&1&nf&x&F&C&4&2&0&1&nw&x&F&C&4&2&0&1&nl&x&F&C&4&2&0&1&ni&x&F&C&4&2&0&1&nt&x&F&C&4&2&0&1&ne'
+# Optional 64x64 PNG file stored in the Nebo folder. Leave empty to hide the server icon.
+icon: 'server-icon.png'

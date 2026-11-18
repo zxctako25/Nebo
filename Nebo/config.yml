@@ -1,0 +1,32 @@
+# Anti-bot checks; set false to allow all IPs through these filters.
+anti_bot: true
+
+# Blocked ISO 3166-1 alpha-2 country codes. All other countries are allowed.
+blocked_country:
+  # - PL
+  # - UA
+
+# Blocked autonomous system numbers.
+blocked_asns:
+  # - 112233
+
+# Remote IP lists used to reject known proxy addresses.
+ips_url:
+  - "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4.txt"
+  - "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5.txt"
+  - "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt"
+
+# Enable or disable the virtual Limbo verification server.
+limbo:
+  enabled: true
+
+# CAPTCHA options. Add any number of PNG backgrounds to Nebo/captcha.
+captcha:
+  enabled: true # When false, only the fall and packet checks run.
+  background-count: 4 # 1 always uses the first image; increase to use more backgrounds.
+  timeout-seconds: 35 # Time allowed to solve the CAPTCHA.
+  attempts: 3 # Incorrect answers allowed before disconnect.
+
+# Player message language. Available files: messages_ru.yml and messages_en.yml.
+messages:
+  language: "ru"
